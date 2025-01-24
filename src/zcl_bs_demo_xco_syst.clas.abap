@@ -70,7 +70,7 @@ CLASS zcl_bs_demo_xco_syst IMPLEMENTATION.
 
   METHOD date.
     " Classic
-    DATA(system_date) = sy-datum.
+    DATA(system_date) = sy-datlo.
     out->write( system_date ).
 
     " XCO
@@ -101,7 +101,7 @@ CLASS zcl_bs_demo_xco_syst IMPLEMENTATION.
 
   METHOD time.
     " Classic
-    DATA(system_time) = sy-uzeit.
+    DATA(system_time) = sy-timlo.
     out->write( system_time ).
 
     " XCO
