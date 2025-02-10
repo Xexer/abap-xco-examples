@@ -35,7 +35,7 @@ CLASS zcl_bs_demo_xco_uuid IMPLEMENTATION.
     " Classic
 *    CALL FUNCTION 'GUID_CREATE'
 *      IMPORTING
-*        ev_guid_16 = ld_uuid.
+*        ev_guid_16 = uuid.
 
     " Modern
     TRY.

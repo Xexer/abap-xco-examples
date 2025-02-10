@@ -7,10 +7,7 @@ CLASS zcl_bs_demo_xco_introduction DEFINITION
 ENDCLASS.
 
 
-
-CLASS ZCL_BS_DEMO_XCO_INTRODUCTION IMPLEMENTATION.
-
-
+CLASS zcl_bs_demo_xco_introduction IMPLEMENTATION.
   METHOD if_oo_adt_classrun~main.
     DATA(ld_string) = `This is my new text string`.
 
