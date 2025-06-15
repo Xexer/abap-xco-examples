@@ -20,6 +20,12 @@
      <MSGNR>001</MSGNR>
      <TEXT>This is a &amp;1 with a variable (&amp;2)!</TEXT>
     </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZBS_DEMO_XCO</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Message for no error</TEXT>
+    </T100>
    </T100>
   </asx:values>
  </asx:abap>
